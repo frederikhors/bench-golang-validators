@@ -6,11 +6,11 @@
 goos: windows
 goarch: amd64
 pkg: benchGolangValidators
-BenchmarkAsaskevich-8              94460             12505 ns/op            5439 B/op         72 allocs/op
-BenchmarkPlayground-8             704642              1784 ns/op             227 B/op         14 allocs/op
-BenchmarkSaddam-8                  97534             12125 ns/op            1858 B/op         68 allocs/op
-BenchmarkBuffalo-8                235267              5033 ns/op             756 B/op         15 allocs/op
-BenchmarkOzzo-8                    14416             81325 ns/op            5653 B/op        112 allocs/op
+BenchmarkAsaskevich-8   	   82749	     13119 ns/op	    5452 B/op	      72 allocs/op
+BenchmarkPlayground-8   	  705242	      1808 ns/op	     228 B/op	      14 allocs/op
+BenchmarkSaddam-8       	   93002	     13140 ns/op	    1854 B/op	      68 allocs/op
+BenchmarkBuffalo-8      	  203504	      5042 ns/op	     760 B/op	      15 allocs/op
+BenchmarkOzzo-8         	  176402	      6674 ns/op	    5093 B/op	      99 allocs/op
 PASS
 ok      benchGolangValidators   7.300s
 ```

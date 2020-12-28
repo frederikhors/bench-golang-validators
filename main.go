@@ -103,7 +103,7 @@ func validateWithOzzo(user *User) {
 		validation.Field(&user.FirstName, validation.Required),
 		validation.Field(&user.LastName, validation.Required),
 		validation.Field(&user.Age, validation.Min(0), validation.Max(130)),
-		validation.Field(&user.Email, validation.Required, is.Email),
+		validation.Field(&user.Email, validation.Required, is.EmailFormat),
 		validation.Field(&user.Street, validation.Required),
 		validation.Field(&user.City, validation.Required),
 		validation.Field(&user.Planet, validation.Required),
